@@ -58,9 +58,9 @@ st.dataframe(
 col1, col2, col3, col4 = st.columns(4)
 
 col1.metric("Sleep_Hours", 8)
-col2.metric("Gender", ...)
-col3.metric("BMI", ...)
-col4.metric("Physical_Activity", ...)
+col2.metric("Gender", "Male")
+col3.metric("BMI", 22)
+col4.metric("Physical_Activity","Moderate")
 
 
 
